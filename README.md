@@ -1,27 +1,52 @@
 # PREEMAX NetMonitor
 
-**PREEMAX NetMonitor** یک نرم‌افزار مانیتورینگ، گزارش‌گیری و عیب‌یابی شبکه برای Windows است که با تمرکز بر وضعیت اتصال، کیفیت و پایداری، مصرف داده، VPN، Wi‑Fi، ابزارهای شبکه و پایش سرویس‌ها توسعه یافته است.
+<p align="center">
+  <strong>مانیتورینگ، گزارش‌گیری و عیب‌یابی شبکه برای Windows</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0--RC44-blue" alt="Version 1.0.0 RC44" />
+  <img src="https://img.shields.io/badge/status-Pre--release-orange" alt="Pre-release" />
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4" alt="Windows 10/11" />
+  <img src="https://img.shields.io/badge/architecture-x64-informational" alt="x64" />
+</p>
+
+**PREEMAX NetMonitor** یک نرم‌افزار مانیتورینگ، گزارش‌گیری و عیب‌یابی شبکه است که وضعیت اتصال، کیفیت و پایداری، مصرف داده، VPN، Wi‑Fi، ابزارهای شبکه و سرویس‌های تحت پایش را در یک محیط یکپارچه نمایش می‌دهد.
 
 > **Publisher:** PREEMAX / ماناکاوش  
 > **Website:** https://preemax.ir
 
-## Download
+## دانلود Windows
 
-نسخه‌های رسمی قابل نصب از بخش **Releases** همین مخزن منتشر می‌شوند.
+### نسخه فعلی: `1.0.0 RC44`
 
-- Windows 10/11 x64 — Installer و Portable
-- Android — لینک‌های انتشار رسمی هنگام عرضه در همین صفحه درج می‌شوند
-- معماری‌ها و پلتفرم‌های دیگر در صورت انتشار رسمی به همین ساختار اضافه خواهند شد
+[**دانلود Setup برای Windows x64**](https://github.com/preemax/PREEMAX-NetMonitor/releases/download/v1.0.0-rc44/PREEMAX_NetMonitor_Setup_1.0.0-RC44_win-x64.exe)
 
-> برای امنیت، فقط فایل‌هایی را نصب کنید که از بخش Releases همین مخزن یا وب‌سایت رسمی PREEMAX دریافت شده‌اند.
+[مشاهده صفحه Release و توضیحات نسخه](https://github.com/preemax/PREEMAX-NetMonitor/releases/tag/v1.0.0-rc44)
 
-## Main features
+- سیستم‌عامل: Windows 10 / Windows 11
+- معماری: x64
+- نوع انتشار: Release Candidate / Pre-release
+- نصب استاندارد Windows با ثبت در Installed Apps
+- پشتیبانی از Modify / Reinstall / Uninstall
 
-- تشخیص وضعیت Offline / Local Network / Intranet / Global Internet
+> برای امنیت، فایل برنامه را فقط از **GitHub Releases رسمی PREEMAX** یا وب‌سایت رسمی `preemax.ir` دریافت کنید.
+
+## وضعیت پلتفرم‌ها
+
+| پلتفرم | وضعیت | روش انتشار |
+|---|---|---|
+| Windows x64 | منتشر شده — RC44 | GitHub Releases |
+| Android | در حال آماده‌سازی | انتشار رسمی از مارکت‌های Android |
+| سایر پلتفرم‌ها | برنامه‌ریزی نشده برای انتشار فعلی | در صورت عرضه به این فهرست اضافه می‌شوند |
+
+## قابلیت‌های اصلی
+
+- تشخیص وضعیت `Offline / Local Network / Intranet / Global Internet`
 - پایش Public IP و تغییرات مسیر اتصال
-- تفکیک اتصال Wi‑Fi / Ethernet / USB Tethering / Bluetooth
+- تفکیک اتصال `Wi‑Fi / Ethernet / USB Tethering / Bluetooth`
 - تشخیص و گزارش وضعیت VPN
-- تاریخچه مصرف Download / Upload
+- تاریخچه Download / Upload
 - گزارش مصرف به تفکیک مسیر و نوع اتصال
 - گزارش مصرف اینترنت برنامه‌ها
 - مقایسه کیفیت و پایداری اتصال‌ها
@@ -29,42 +54,55 @@
 - DNS Profiles و Quick Switch
 - Website & Service Monitoring
 - Dashboard و Mini Watch
-- Tray integration و هشدارهای شبکه
+- System Tray و هشدارهای شبکه
 
-## Windows installation
+## نصب Windows
 
-نسخه Installer برای Windows در بخش Releases ارائه می‌شود و از نصب استاندارد Windows پشتیبانی می‌کند:
+Installer رسمی از این قابلیت‌ها پشتیبانی می‌کند:
 
 - انتخاب مسیر نصب
-- Minimal / Typical / Full / Custom setup
+- `Minimal / Typical / Full / Custom`
 - انتخاب اجزای قابل نصب
 - Start Menu و Desktop Shortcut
 - Start with Windows
 - Modify / Reinstall / Uninstall
-- ثبت در Windows Installed Apps
+- ثبت استاندارد در Windows Installed Apps
 
-## Release verification
+## بررسی اصالت فایل Release
 
-هر Release می‌تواند همراه این فایل‌ها منتشر شود:
+Release رسمی RC44 همراه فایل‌های زیر منتشر شده است:
 
 - `SHA256SUMS.txt`
 - `RELEASE_MANIFEST.json`
 
-برای اطمینان از یکپارچگی فایل دانلودشده، مقدار SHA‑256 آن را با مقدار منتشرشده در همان Release مقایسه کنید.
+SHA‑256 فایل Setup نسخه RC44:
 
-## Platform identity
+```text
+9255ef4b2eb007201a551278746fd649ad4c4c6da688be82efd1afa9abed69f4
+```
 
-محصولات PREEMAX در پلتفرم‌های مختلف با هویت ناشر یکسان منتشر می‌شوند، در حالی که هر پلتفرم از سازوکار امضای دیجیتال استاندارد خودش استفاده می‌کند.
+پس از دانلود می‌توانید مقدار SHA‑256 فایل را با مقدار بالا و فایل `SHA256SUMS.txt` همان Release مقایسه کنید.
 
-## Privacy
+## هویت پلتفرمی
 
-NetMonitor داده‌های مانیتورینگ را برای گزارش‌گیری محلی نگه می‌دارد. جزئیات دقیق مربوط به حریم خصوصی در نسخه نصب‌شده و فایل Privacy Notice همان Release ارائه می‌شود.
+محصولات PREEMAX در پلتفرم‌های مختلف با هویت ناشر یکسان منتشر می‌شوند، در حالی که هر پلتفرم از سازوکار استاندارد امضای دیجیتال خودش استفاده می‌کند.
 
-## Support
+## حریم خصوصی
+
+NetMonitor داده‌های مانیتورینگ را برای گزارش‌گیری به‌صورت محلی نگه می‌دارد. جزئیات حریم خصوصی همراه نسخه نصب‌شده ارائه می‌شود.
+
+## پشتیبانی
 
 - Website: https://preemax.ir
 - Product: PREEMAX NetMonitor
 - Owner: ماناکاوش
+- Research & Development Lead: رضا نظری
+
+## نسخه‌ها
+
+تمام نسخه‌های عمومی از صفحه زیر در دسترس هستند:
+
+https://github.com/preemax/PREEMAX-NetMonitor/releases
 
 ---
 
